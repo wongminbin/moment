@@ -1,7 +1,7 @@
 //! moment.js locale configuration
 //! locale : Macedonian [mk]
 //! author : Borislav Mickov : https://github.com/B0k0
-
+//! author : Sashko Todorov : https://github.com/bkyceh
 import moment from '../moment';
 
 export default moment.defineLocale('mk', {
@@ -39,19 +39,19 @@ export default moment.defineLocale('mk', {
         sameElse : 'L'
     },
     relativeTime : {
-        future : 'после %s',
+        future : 'за %s',
         past : 'пред %s',
         s : 'неколку секунди',
         ss : '%d секунди',
-        m : 'минута',
+        m : 'една минута',
         mm : '%d минути',
-        h : 'час',
+        h : 'еден час',
         hh : '%d часа',
-        d : 'ден',
+        d : 'еден ден',
         dd : '%d дена',
-        M : 'месец',
+        M : 'еден месец',
         MM : '%d месеци',
-        y : 'година',
+        y : 'една година',
         yy : '%d години'
     },
     dayOfMonthOrdinalParse: /\d{1,2}-(ев|ен|ти|ви|ри|ми)/,
@@ -76,7 +76,7 @@ export default moment.defineLocale('mk', {
     },
     week : {
         dow : 1, // Monday is the first day of the week.
-        doy : 7  // The week that contains Jan 1st is the first week of the year.
+        doy : 7  // The week that contains Jan 7th is the first week of the year.
     }
 });
 
